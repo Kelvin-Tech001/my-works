@@ -1,0 +1,44 @@
+body{
+  margin: 0;  
+  padding: 0;
+  background: gray;
+}
+
+.na{
+    width: 100%;
+    background: black;
+    overflow: auto;
+}
+
+ul{
+    padding: 0;
+    margin: 0 0 0 150px ;
+    list-style: none;
+}
+
+ul li{
+    float: left;
+}
+
+.logo img{
+    position: absolute;
+    margin-top:15px ;
+    margin-left: 10px;
+
+}
+
+.na a{
+    width:100px ;
+    display: block;
+    padding: 20px 15px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f2f2f2;
+    text-align: center;
+}
+
+.na a:hover{
+    background: purple;
+    transition: 0.sa;
+    text-transform: uppercase;
+}
